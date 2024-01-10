@@ -14,7 +14,7 @@ const Crew = () => {
     },[])
  
     return (
-        <div>
+        <div className='z-0'>
               <Swiper
         spaceBetween={30}
         pagination={{
