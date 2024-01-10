@@ -2,7 +2,7 @@
 
 const Banner = () => {
     return (
-        <div className="hero min-h-screen ">
+        <div className="hero   " style={{height:'calc(100vh - 70px)'}} >
         <div className="hero-content flex-col lg:flex-row-reverse">
       <div className=" w-[278px] h-[278px] flex items-center justify-center rounded-full bg-white lg:ml-[391px] ">
        <h2 className="text-3xl text-center">EXPLORE</h2>

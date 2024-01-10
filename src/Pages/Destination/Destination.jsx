@@ -21,9 +21,9 @@ const Destination = () => {
      const titan= earthInfo.destinations?.filter(titan=>titan.name==='Titan')
      
     return (
-        <div>
+        <div className=''>
         <Tabs>
-          <TabList>
+        <TabList className='w-72 ml-auto absolute right-[269px] top-[123px] text-white z-10'>
             <Tab>Moon</Tab>
             <Tab>Mars</Tab>
             <Tab>Europa</Tab>
