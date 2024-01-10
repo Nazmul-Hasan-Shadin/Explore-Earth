@@ -33,12 +33,12 @@ const Navbar = () => {
 </div>
 </div>
 {/* Page content here */}
-
+ 
 <Outlet></Outlet>
 </div> 
-<div className="drawer-side">
+<div className="drawer-side ">
 <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label> 
-<ul className="menu p-4 w-80 min-h-full bg-base-200 ">
+<ul className="menu p-4 w-46 min-h-full bg-gray-700 text-white ">
 {/* Sidebar content here */}
  {links}
 </ul>
