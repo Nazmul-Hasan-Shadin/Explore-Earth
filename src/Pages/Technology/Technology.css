@@ -1,0 +1,16 @@
+.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: var(--swiper-pagination-top, auto);
+    left: -20%;
+    width: 100%;
+    
+}
+
+
+.swiper-pagination-bullet {
+    width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 50px));
+    height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 38px));
+    display: inline-block;
+    border-radius: var(--swiper-pagination-bullet-border-radius, -90%);
+
+}
