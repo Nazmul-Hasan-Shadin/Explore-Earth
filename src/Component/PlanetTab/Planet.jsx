@@ -6,8 +6,8 @@ const Planet = ({planet}) => {
      console.log(planet?.images?.png);
     return ( 
         <div>
-        <div className="hero min-h-  mt-4  ">
- <div className="hero-content flex-col lg:flex-row">
+        <div className="hero min-h-  mt-4  ">                   
+ <div className="hero-content flex-col lg:flex-row p-0 lg:p-4">
 
   <img className=' w-64 h-64 lg:w-[546px] lg:h-[500px]' src={images?.png} alt="" />
 

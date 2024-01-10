@@ -23,7 +23,7 @@ const Destination = () => {
     return (
         <div className=''>
         <Tabs >
-        <TabList className='w-72 ml-auto absolute top-[43%] left-20  lg:right-[269px] lg:top-[123px] text-white z-10'>
+        <TabList className='w-72  ml-auto absolute top-[43%] left-[13%]  lg:right-[269px] lg:top-[123px] text-white z-10'>
             <Tab>Moon</Tab>
             <Tab>Mars</Tab>
             <Tab>Europa</Tab>
