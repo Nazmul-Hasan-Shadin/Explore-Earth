@@ -6,7 +6,7 @@ import backgroundImgae from '../assets/home/background-home-desktop.jpg'
 const Root = () => {
 
     return (
-       <div className='relative'  style={{ backgroundImage: `url(${backgroundImgae })`,height:'100vh' }}>
+       <div className='relative min-h-screen '   style={{ backgroundImage: `url(${backgroundImgae })`,backgroundRepeat:'none'}}>
        <Navbar></Navbar>
        </div>
     );
