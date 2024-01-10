@@ -2,7 +2,7 @@ import React from 'react';
 import Planet from './Planet';
 
 const PlanetTab = ({planet}) => {
-    console.log(planet);
+ 
    return (
     <div>
         {
